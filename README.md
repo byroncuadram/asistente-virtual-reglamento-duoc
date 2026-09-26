@@ -43,8 +43,8 @@ Sigue estos pasos para desplegar y ejecutar el proyecto en tu entorno local:
 
 1. Clonar el Repositorio
 Bash
-git clone [https://github.com/tu-usuario/AsistenteVirtual-DuocUC.git](https://github.com/tu-usuario/AsistenteVirtual-DuocUC.git)
-cd AsistenteVirtual-DuocUC
+git clone [https://github.com/byroncuadram/asistente-virtual-reglamento-duoc.git](https://github.com/byroncuadram/asistente-virtual-reglamento-duoc.git)
+cd AsistenteVirtual
 
 2. Crear y Activar el Entorno Virtual
 En Windows (PowerShell):
