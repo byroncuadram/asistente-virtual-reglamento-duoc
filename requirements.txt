@@ -1,5 +1,5 @@
-# Dependencias — Ingeniería de Soluciones con IA
-# Instalación local:  pip install -r requirements.txt
+# Dependencias — Ingeniería de Soluciones con IA (Evaluación RA2)
+# Instalación local:   pip install -r requirements.txt
 # En Google Colab:     !pip install -q -r requirements.txt
 #
 # Requiere Python >=3.10.
@@ -7,13 +7,15 @@
 # --- Núcleo LLM / LangChain (Sintaxis LCEL Nativa) -------------------
 langchain>=0.3.0
 langchain-core>=0.3.0
-langchain-community>=0.3.0
 
-# --- Proveedor LLM y Embeddings (Mistral AI) --------------------------
+# --- Integraciones Específicas de LangChain ---------------------------
 langchain-mistralai>=0.2.0
+langchain-chroma>=0.1.4
+langchain-huggingface>=0.1.0
 
-# --- Base de Datos Vectorial RAG --------------------------------------
+# --- Base de Datos Vectorial y Embeddings Locales ---------------------
 chromadb>=0.5.0
+sentence-transformers>=3.0.0
 
 # --- Datos y Utilidades -----------------------------------------------
 pandas>=2.0.0
